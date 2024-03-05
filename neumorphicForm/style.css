@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #afd275;
+    position: relative;
+}
+.form {
+    box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255,255,255,0.3);
+    padding: 40px 40px 60px;
+    width: 350px;
+    border-radius: 10px;
+}
+input {
+    height: 50px;
+    width: 100%;
+    border-radius: 40px;
+    padding: 5px 15px;
+    background: #afd275;
+    box-shadow: inset 8px 8px 16px 0 rgba(0,0, 0, 0.25), inset -8px -8px 12px 0 rgba(255,255,255,0.3);   
+    border: none;
+    outline: none;
+    
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #131419;
+}
+input[type = "submit"] {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 100px);
+    box-shadow: 25px 16px 16px 0 rgba(0,0, 0, 0.25), -10px -10px 12px 0 rgba(255,255,255,0.3);
+    font-size: 18px;
+    color: #131419;
+}
+input[type = "submit"]:active {
+    box-shadow: inset 8px 8px 16px 0 rgba(0,0, 0, 0.25), inset -8px -8px 12px 0 rgba(255,255,255,0.3);
+}
+.forgot-password {
+    margin-top: 40px;
+    color: #555;
+    font-weight: 500;
+}
+a {
+    color:#fff;
+}
+.input-box {
+    color: #131419;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
