@@ -105,7 +105,7 @@ h2{
   background-color: navy;
   width: 20%;
   height: 30%;
-  margin-: 50px;
+  margin-bottom: 100px;
   margin-left: 800px;
   border: 5px;
   border-radius: 10px;
@@ -135,6 +135,53 @@ h2{
 h3 , h4 , a{
   color: white;
 }
+
+#link1{
+  color: white;
+  background: #FFDB58;
+  width: 80px;
+  height: 30px;
+  margin-left: 100px;
+  border: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+#link2{
+  color: white;
+  background: #FFDB58;
+  width: 80px;
+  height: 30px;
+  margin-top: 1px;
+  margin-left: 400px;
+  border: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+#link3{
+  color: white;
+  background: #FFDB58;
+  width: 80px;
+  height: 30px;
+  margin-left: 700px;
+  border: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+#link4{
+  color: white;
+  background: #FFDB58;
+  width: 80px;
+  height: 30px;
+  margin-left: 900px;
+  border: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
 
 
 
